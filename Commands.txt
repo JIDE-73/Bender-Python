@@ -1,0 +1,25 @@
+#To start u need python 3.12:
+pip -m venv venv
+venv\Scripts\activate
+
+#before you run this dependencies, 
+#make sure you a'ready have this:
+pip install pipwin
+
+#You can try to install this one,
+#I actually changed for sounddevice
+#Its kinda same, and its all ready in requirements
+#so you can skip this one:
+pipwin install pyaudio
+
+#To install dependecies:
+pip install -r requirements.txt
+
+#If you have a problem with dependencies:
+python.exe -m pip install --upgrade pip
+
+#Hardware
+ESP32 wifi + bluethoot
+Microphone I2S: INMP441
+Amp: PAM8403
+Speaker: PAM8403

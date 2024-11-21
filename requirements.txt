@@ -1,0 +1,8 @@
+speechrecognition==3.10.0
+sounddevice
+gTTS==2.3.2
+Flask==2.3.2
+requests==2.31.0
+paho-mqtt==1.6.1
+pyserial==3.5
+python-dotenv==1.0.0
